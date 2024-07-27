@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   lint:
-    name: lint test test test test
+    name: lint
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
