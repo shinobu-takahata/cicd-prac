@@ -1,5 +1,6 @@
 name: Change shell
 on: push
+# shellキーを指定してないと、パイプエラーに気づかない
 defaults:
   run:
     shell: bash
