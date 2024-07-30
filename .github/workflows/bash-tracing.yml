@@ -1,9 +1,10 @@
 name: Bash trasing
 on: push
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - run: |
-        set -x
-        date
-        hostname
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          set -x
+          date
+          hostname
